@@ -1,0 +1,1 @@
+<p>Welcome, <?= $_SESSION['user']['name'] ?>! This is your dashboard.</p>
