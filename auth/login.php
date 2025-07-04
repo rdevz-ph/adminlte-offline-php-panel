@@ -1,4 +1,7 @@
 <?php
+
+$basePath = rtrim(dirname($_SERVER['SCRIPT_NAME'], 1), '/');
+
 include '../config.php';
 include '../dashboard/functions/setting.php';
 
@@ -73,6 +76,13 @@ include '../includes/auth-header.php';
                     </div>
                 </div>
             </form>
+
+            <!-- Install App Button - Outside the form -->
+            <div class="text-center mt-3">
+                <button id="installBtn" class="btn btn-success" style="display: none;">
+                    <i class="fas fa-download"></i> Install App
+                </button>
+            </div>
 
         </div>
     </div>

@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="../assets/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
     <link rel="stylesheet" href="../assets/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
 
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#0d6efd">
+    <link rel="apple-touch-icon" href="../assets/icons/icon-192.png">
+
     <style>
         .main-sidebar {
             background-color: #0f2a60 !important;
