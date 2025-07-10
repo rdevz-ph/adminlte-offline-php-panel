@@ -72,7 +72,7 @@ include '../includes/auth-header.php';
 
                 <div class="row">
                     <div class="col-4">
-                        <button type="submit" class="btn btn-primary btn-block rounded-pill">Sign In</button>
+                        <button type="submit" class="btn btn-primary btn-block rounded-pill">Login</button>
                     </div>
                 </div>
             </form>
